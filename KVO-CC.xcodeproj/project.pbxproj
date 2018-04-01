@@ -13,6 +13,8 @@
 		CC7246142065334B00A4666F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7246122065334B00A4666F /* Main.storyboard */; };
 		CC7246162065334B00A4666F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7246152065334B00A4666F /* Assets.xcassets */; };
 		CC7246192065334B00A4666F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7246172065334B00A4666F /* LaunchScreen.storyboard */; };
+		CC7246222065335A00A4666F /* RLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7246212065335A00A4666F /* RLPerson.m */; };
+		CC7246252065337500A4666F /* NSObject+RLKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7246242065337500A4666F /* NSObject+RLKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		CC7246152065334B00A4666F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7246182065334B00A4666F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC72461A2065334B00A4666F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7246202065335A00A4666F /* RLPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLPerson.h; sourceTree = "<group>"; };
+		CC7246212065335A00A4666F /* RLPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLPerson.m; sourceTree = "<group>"; };
+		CC7246232065337500A4666F /* NSObject+RLKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RLKVO.h"; sourceTree = "<group>"; };
+		CC7246242065337500A4666F /* NSObject+RLKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RLKVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				CC72460D2065334B00A4666F /* AppDelegate.m */,
 				CC72460F2065334B00A4666F /* ViewController.h */,
 				CC7246102065334B00A4666F /* ViewController.m */,
+				CC7246202065335A00A4666F /* RLPerson.h */,
+				CC7246212065335A00A4666F /* RLPerson.m */,
+				CC7246232065337500A4666F /* NSObject+RLKVO.h */,
+				CC7246242065337500A4666F /* NSObject+RLKVO.m */,
 				CC7246122065334B00A4666F /* Main.storyboard */,
 				CC7246152065334B00A4666F /* Assets.xcassets */,
 				CC7246172065334B00A4666F /* LaunchScreen.storyboard */,
@@ -105,6 +115,7 @@
 		CC7245FE2065334B00A4666F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RL;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = relax;
 				TargetAttributes = {
@@ -152,6 +163,8 @@
 			files = (
 				CC7246112065334B00A4666F /* ViewController.m in Sources */,
 				CC72460E2065334B00A4666F /* AppDelegate.m in Sources */,
+				CC7246252065337500A4666F /* NSObject+RLKVO.m in Sources */,
+				CC7246222065335A00A4666F /* RLPerson.m in Sources */,
 				CC72460B2065334B00A4666F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
